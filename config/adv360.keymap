@@ -36,32 +36,32 @@
 
     combos {
         compatible = "zmk,combos";
-        ctrl-j: {
+        ctrl-j {
             timeout-ms = <50>;
             key-positions = <38 41>;  // LCtrl (38) and J (41)
             bindings = <&kp LSHIFT &kp N9>;  // Outputs "("
         };
-        ctrl-k: {
+        ctrl-k {
             timeout-ms = <50>;
             key-positions = <38 42>;  // LCtrl (38) and K (42)
             bindings = <&kp LSHIFT &kp N0>;  // Outputs ")"
         };
-        ctrl-l: {
+        ctrl-l {
             timeout-ms = <50>;
             key-positions = <38 43>;  // LCtrl (38) and L (43)
             bindings = <&kp LSHIFT &kp LBKT>;  // Outputs "{"
         };
-        ctrl-semicolon: {
+        ctrl-semicolon {
             timeout-ms = <50>;
             key-positions = <38 44>;  // LCtrl (38) and Semicolon (44)
             bindings = <&kp LSHIFT &kp RBKT>;  // Outputs "}"
         };
-        home: {
+        home {
             timeout-ms = <50>;
             key-positions = <52>;  // Home key (52)
             bindings = <&kp LCTRL &kp C>;  // Outputs Ctrl+C
         };
-        end: {
+        end {
             timeout-ms = <50>;
             key-positions = <67>;  // End key (67)
             bindings = <&kp LCTRL &kp V>;  // Outputs Ctrl+V
