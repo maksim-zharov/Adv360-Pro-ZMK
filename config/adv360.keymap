@@ -39,32 +39,32 @@
         ctrl-j {
             timeout-ms = <500>;
             key-positions = <38 41>;  // LCtrl (38) and J (41)
-            bindings = <&kp LSHIFT &kp N9>;  // Outputs "("
+            bindings = <&mt LSHIFT N9>;  // Outputs "("
         };
         ctrl-k {
             timeout-ms = <500>;
             key-positions = <38 42>;  // LCtrl (38) and K (42)
-            bindings = <&kp LSHIFT &kp N0>;  // Outputs ")"
+            bindings = <&mt LSHIFT N0>;  // Outputs ")"
         };
         ctrl-l {
-            timeout-ms = <50>;
+            timeout-ms = <500>;
             key-positions = <38 43>;  // LCtrl (38) and L (43)
-            bindings = <&kp LSHIFT &kp LBKT>;  // Outputs "{"
+            bindings = <&mt LSHIFT LBKT>;  // Outputs "{"
         };
         ctrl-semicolon {
             timeout-ms = <500>;
             key-positions = <38 44>;  // LCtrl (38) and Semicolon (44)
-            bindings = <&kp LSHIFT &kp RBKT>;  // Outputs "}"
+            bindings = <&mt LSHIFT RBKT>;  // Outputs "}"
         };
         home {
             timeout-ms = <500>;
             key-positions = <52>;  // Home key (52)
-            bindings = <&kp LCTRL &kp C>;  // Outputs Ctrl+C
+            bindings = <&mt LCTRL C>;  // Outputs Ctrl+C
         };
         end {
-            timeout-ms = <50>;
+            timeout-ms = <500>;
             key-positions = <67>;  // End key (67)
-            bindings = <&kp LCTRL &kp V>;  // Outputs Ctrl+V
+            bindings = <&mt LCTRL V>;  // Outputs Ctrl+V
         };
     };
 
