@@ -39,32 +39,32 @@
         ctrl-j {
             timeout-ms = <500>;
             key-positions = <38 41>;  // LCtrl (38) and J (41)
-            bindings = <&mt LSHIFT N9>;  // Outputs "("
+            bindings = <&kp LS(N9)>;  // Outputs "("
         };
         ctrl-k {
             timeout-ms = <500>;
             key-positions = <38 42>;  // LCtrl (38) and K (42)
-            bindings = <&mt LSHIFT N0>;  // Outputs ")"
+            bindings = <&kp LS(N0)>;  // Outputs ")"
         };
         ctrl-l {
             timeout-ms = <500>;
             key-positions = <38 43>;  // LCtrl (38) and L (43)
-            bindings = <&mt LSHIFT LBKT>;  // Outputs "{"
+            bindings = <&kp LS(LBKT)>;  // Outputs "{"
         };
         ctrl-semicolon {
             timeout-ms = <500>;
             key-positions = <38 44>;  // LCtrl (38) and Semicolon (44)
-            bindings = <&mt LSHIFT RBKT>;  // Outputs "}"
+            bindings = <&kp LS(RBKT)>;  // Outputs "}"
         };
         home {
             timeout-ms = <500>;
             key-positions = <52>;  // Home key (52)
-            bindings = <&mt LCTRL C>;  // Outputs Ctrl+C
+            bindings = <&kp LC(C)>;  // Outputs Ctrl+C
         };
         end {
             timeout-ms = <500>;
             key-positions = <67>;  // End key (67)
-            bindings = <&mt LCTRL V>;  // Outputs Ctrl+V
+            bindings = <&kp LC(V)>;  // Outputs Ctrl+V
         };
     };
 
